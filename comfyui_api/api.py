@@ -7,7 +7,7 @@ load_dotenv()
 
 FILES_DIR = "chunk_text/output"
 ONLY_NAMES = None  # Ex. ["file1", "file2"]
-OUTPUT_DIR = "chapter20"
+OUTPUT_DIR = "chapter22"
 
 with open("comfyui_api/body.json", "r") as f:
     prompt = json.load(f)
